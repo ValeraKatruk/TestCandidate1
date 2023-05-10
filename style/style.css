@@ -13,6 +13,17 @@
   top: 25px;
 }
 
+.header__contact{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 184px;
+height: 18px;
+}
+
 .container{
   background-image: url("../image/helimain.jpg");
   position: absolute;
@@ -24,5 +35,5 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Montserrat");
 }
