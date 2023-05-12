@@ -1,29 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Тестовое Кандидат 1</title>
   <link rel="stylesheet" href="./style/style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,regular,500,600,700,900&display=swap&subset=cyrillic-ext"
+    rel="stylesheet" />
 </head>
+
 <body>
-
-  <header class="header">
-    <div name="header__logo"></div>
-    <div name="header__contact">
-      <span name="header__phone"> Телефон: </span>
-      <span name="header__number"> 8(800)-123-12-12 </span>
-    </div>
-  </header>
-  <div class="preview">
-    <div class="container">      
-    </div>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container _container">
+        <a href="#" class="header__logo-link">
+          <img src="./image/Logo.svg" class="header__logo"></img>
+        </a>
+        <div class="header__contact contact">
+          <div class="contact__text">Телефон:</div>
+          <div class="contact__number">8(800)-123-12-12</div>
+        </div>
+      </div>
+    </header>
+    <main class="offer">
+      <div class="offer__container">    
+        <div class="offer__container_title">Эксклюзивная <span class="offer__container_title_color">фотосессия</span> при
+          полете на вертолете</div>
+        <div class="offer__container_button">
+          <div class="offer__container_button_reservation">Забронировать место</div>
+        </div>
+        <div class="offer__container_bg">
+          <div class="offer__container_bg-color"></div>
+          <div class="offer__container_image"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__line"></div>
+        <div class="footer__content">
+          <div class="footer__content__container">
+            <div class="content__container_copyright">© 2018 HELYFLY. All Rights Reserved.              
+            </div>
+            <div class="content__container_techsupport">Тех. поддержка: 8(800)700-00-00              
+            </div>
+        </div>
+      </div>
+    </footer>
   </div>
-  <div class="offer">
-    <div name="offer__description"></div>
-    <div name="offer__imag"></div>
-  </div>
 
+  <script src="./js/script.js"></script>  
 </body>
+
 </html>
